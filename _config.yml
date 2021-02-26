@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Aux
 tagline:          'A hardware project by Thomas Countz'
 description:      'A microfeed of project updates.'
-url:              ''
+url:              'https://aux-blog.netlify.app'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
