@@ -1,4 +1,5 @@
 source "https://rubygems.org"
-gemspec
-
 gem 'jekyll-seo-tag'
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-feed"
