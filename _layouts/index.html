@@ -16,6 +16,9 @@ layout: default
     </h2>
     {% include post-meta.html post=post %}
     {{ post.content }}
+    <div style="text-align:right;">
+      <a href="{{ post.url | relative_url }}" style="border:1px solid black;padding:8px;border-right:3px solid black;border-bottom:3px solid black;"> Comments → </a>
+    </div>
   </article>
   {% endfor %}
 
