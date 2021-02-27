@@ -22,11 +22,6 @@
   we want the sidebar or header to stretch.
 */
 
-@font-face {
-  font-family: "abril";
-  src: url("/assets/fonts/AbrilFatface-Regular.ttf");
-}
-
 body {
   background-attachment: fixed;
   background-color: $sidebar-bg-color;
@@ -43,7 +38,7 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: "abril", sans-serif;
+    font-family: $root-font-family;
     font-size: $large-font-size;
     font-weight: normal;
     margin-bottom: $heading-spacing;
